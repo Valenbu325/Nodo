@@ -1,4 +1,4 @@
-from Controller import Controlador
+from Controller.Controlador import Controlador
 
 if __name__ == "__main__":
     print("\n" + "="*60)
@@ -8,5 +8,3 @@ if __name__ == "__main__":
     
     Controller = Controlador()
     Controller.ejecutar()
-
-    

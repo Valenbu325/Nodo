@@ -34,11 +34,17 @@ class TDACalendario:
     def _cargar_feriados(self):
         """Carga feriados en lista enlazada"""
         feriados_fijos = {
-            1: [(1, "Año Nuevo")],
-            5: [(1, "Día del Trabajo")],
+            1: [(1, "Año Nuevo"), (6, "Día de los Reyes Magos")],
+            3: [(19, "Día de San José")],
+            4: [(17, "Jueves Santo"), (18, "Viernes Santo")],
+            5: [(1, "Día del Trabajo"), (13, "Ascensión del Señor")],
+            6: [(3, "Corpus Christi"), (10, "Sagrado Corazón de Jesús"), (29, "San Pedro y San Pablo")],
             7: [(20, "Día de la Independencia")],
-            8: [(7, "Batalla de Boyacá")],
-            12: [(8, "Inmaculada Concepción"), (25, "Navidad")]
+            8: [(7, "Batalla de Boyacá"), (15, "Asunción de la Virgen")],
+            10: [(12, "Día de la Raza / Diversidad Étnica y Cultural")],
+            11: [(1, "Día de Todos los Santos"), (11, "Independencia de Cartagena")],
+            12: [(8, "Inmaculada Concepción"), (25, "Navidad del Señor")]
+
         }
         
         if self.mes in feriados_fijos:

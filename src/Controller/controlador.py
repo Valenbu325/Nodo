@@ -1,10 +1,10 @@
 from View.Vista import Vista 
-from Model .archivo import TDAArchivo 
+from Model.archivo import TDAArchivo 
 from Model.calendario import TDACalendario  
 from Model.polinomio import TDAPolinomio  
 from Model.matriz import TDAMatriz
 
- # Ajusta la ruta según la ubicación de Vista
+
 
 class Controlador:
     """Controlador principal del sistema MVC"""
