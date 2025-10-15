@@ -1,3 +1,9 @@
+import shelve
+import calendar
+import datetime
+import random
+from typing import List, Dict, Tuple, Optional
+
 # defenimos todos los nodos que se van a utilizar en los proyectos
 # 1 Archivo
 class NodoArchivo:
@@ -58,4 +64,3 @@ class NodoColumna:
         self.valor = valor
         self.siguiente = None
 
-        
