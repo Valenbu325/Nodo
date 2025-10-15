@@ -42,6 +42,12 @@ Nodo/
 - **Model/**: Implementaciones de los TDAs con nodos y sus clases asociadas.
 - **View/**: Interfaz de consola para interactuar con el usuario.
 
+## Diagrama de clases
+
+<img width="1232" height="892" alt="image" src="https://github.com/user-attachments/assets/9c52a034-ad77-4403-9c6e-cf79a58bad87" />
+
+
+
 ## Instalación
 
 1. **Requisitos previos:**
