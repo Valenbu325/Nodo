@@ -1,3 +1,18 @@
+import shelve
+import calendar
+import datetime
+import random
+from typing import List, Dict, Tuple, Optional
+
+from .nodos import NodoFecha
+class NodoFecha:
+    """Nodo para almacenar información de fechas"""
+    def __init__(self, dia: int, info: str, tipo: str):
+        self.dia = dia
+        self.info = info
+        self.tipo = tipo
+        self.siguiente = None
+
 class TDACalendario:
     """TDA para manejo del calendario con nodos"""
     

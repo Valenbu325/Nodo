@@ -1,5 +1,5 @@
-from Controller import Controlador 
- 
+from Controller import Controlador
+
 if __name__ == "__main__":
     print("\n" + "="*60)
     print("  BIENVENIDO AL SISTEMA DE TDAs CON ESTRUCTURAS DINÁMICAS")
@@ -8,3 +8,5 @@ if __name__ == "__main__":
     
     Controller = Controlador()
     Controller.ejecutar()
+
+    

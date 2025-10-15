@@ -1,3 +1,11 @@
+import shelve
+import calendar
+import datetime
+import random
+from typing import List, Dict, Tuple, Optional 
+
+from .nodos import NodoTermino
+
 class TDAPolinomio:
     """TDA Polinomio implementado con lista enlazada de nodos"""
     

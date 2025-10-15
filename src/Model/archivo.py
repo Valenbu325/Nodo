@@ -1,3 +1,11 @@
+import shelve
+import calendar
+import datetime
+import random
+from typing import List, Dict, Tuple, Optional
+
+from .nodos import NodoArchivo
+
 class TDAArchivo:
     """TDA para manejo de archivos usando nodos y shelve"""
     
